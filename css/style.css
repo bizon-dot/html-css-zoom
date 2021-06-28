@@ -3,3 +3,31 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+/* Generali */
+
+
+/* /Generali */
+
+/* Sezione partecipanti */
+
+#participates .container-flex {
+    min-height: 90vh;
+    background-color: black;
+}
+
+/* /Sezione partecipanti */
+
+/* Footer */
+
+footer {
+    min-height: 10vh;
+    background-color: dimgrey;
+}
+
+/* /Footer */
+
+
+/* Debug */
+
+/* /Debug */
