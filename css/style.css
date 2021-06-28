@@ -5,25 +5,46 @@ box-sizing: border-box;
 }
 
 /* Generali */
+main {
+    width: 100wh;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+}
 
+footer {
+    width: 100wh;
+    height: 10vh;
+}
 
 /* /Generali */
 
 /* Sezione partecipanti */
+#all-users{
+    width: 85%;
+	height: 85%;
+    margin: 10px auto;
+    display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+}
 
-#participates .container-flex {
-    min-height: 90vh;
-    background-color: black;
+.img{
+    width: calc(15wh - 10px);
+	height: calc(15vh - 10px);
+    object-fit:scale-down;
+}
+.user{
+    width: calc(100% / 5 - 10px);
+	height: calc(100% / 5 - 10px);
+	position: relative;
+    
 }
 
 /* /Sezione partecipanti */
 
 /* Footer */
-
-footer {
-    min-height: 10vh;
-    background-color: dimgrey;
-}
 
 /* /Footer */
 
