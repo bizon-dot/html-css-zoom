@@ -13,8 +13,12 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     width: 100wh;
     height: 10vh;
+    background-color: #808080;
 }
 
 .overlay{
@@ -30,6 +34,7 @@ footer {
 /* /Generali */
 
 /* Sezione partecipanti */
+/* Layout unica riga ( 5 x 5 usando wrap) */
 #all-users{
     width: 80%;
 	height: 80%;
@@ -53,18 +58,26 @@ footer {
     object-fit:scale-down;
 }
 
-/* Icone */
-
-
-
-
 /* /Sezione partecipanti */
 
 /* Footer */
 
+footer .aside,
+footer .center {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer .btn{
+    color:white;
+    padding: 8px;
+}
+
+footer .aside span {
+    color:red;
+    background-color:rgb(56, 56, 56);
+    padding:10px;
+    height: 100%;
+}
 /* /Footer */
-
-
-/* Debug */
-
-/* /Debug */
